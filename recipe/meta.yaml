@@ -1,5 +1,5 @@
 {% set name = "mammos-dft" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_dft-{{ version }}.tar.gz
-  sha256: 684db72b57c248f27bc9cbac451e8786c28c127ac133e09b591c64f31137a0e2
+  sha256: 1cd17a72b370e69b142a400399873f966f9de542bbe43f8ea49b3d3a139747bf
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - pandas
     - pydantic
     - rich
+    - ase
 
 test:
   imports:
