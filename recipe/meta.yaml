@@ -1,5 +1,5 @@
 {% set name = "mammos-dft" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mammos_dft-{{ version }}.tar.gz
-  sha256: c0f5ad939bec9dd5a68ccf5c67a9f27f40f8bab90063cbca716b350bcba2ae76
+  sha256: 1cd17a72b370e69b142a400399873f966f9de542bbe43f8ea49b3d3a139747bf
 
 build:
   noarch: python
