@@ -27,6 +27,7 @@ requirements:
     - pandas
     - pydantic
     - rich
+    - ase
 
 test:
   imports:
