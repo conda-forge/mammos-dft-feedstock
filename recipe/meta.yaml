@@ -22,12 +22,12 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
+    - ase
     - mammos-entity >=0.8.0
     - mammos-units
     - pandas
     - pydantic
     - rich
-    - ase
 
 test:
   imports:
